@@ -2,11 +2,17 @@
 public class Branch2 {
     String name,id;
     float cgpa;
-    Branch2(String s, String s1,float f)
+    double income;
+
+
+
+    Branch2(String name, String id, float cgpa,double income)
     {
-        this.name=s;
-        this.id=s1;
-        this.cgpa=f;
+        this.name=name;
+        this.id=id;
+        this.cgpa=cgpa;
+        this.income=income;
+
     }
 
     public String getName() {
@@ -31,5 +37,13 @@ public class Branch2 {
 
     public void setId(String id) {
         this.id = id;
+    }
+
+    public double getIncome() {
+        return income;
+    }
+
+    public void setIncome(double income) {
+        this.income = income;
     }
 }
