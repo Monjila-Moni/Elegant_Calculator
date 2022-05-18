@@ -1,11 +1,11 @@
 public class Branch3 {
         String name,id;
-        float cgpa;
+
         Branch3(String s, String s1,float f)
         {
             this.name=s;
             this.id=s1;
-            this.cgpa=f;
+
         }
 
         public String getName() {
@@ -16,13 +16,7 @@ public class Branch3 {
             this.name = name;
         }
 
-        public float getCgpa() {
-            return cgpa;
-        }
 
-        public void setCgpa(float cgpa) {
-            this.cgpa = cgpa;
-        }
 
         public String getId() {
             return id;
@@ -32,4 +26,4 @@ public class Branch3 {
             this.id = id;
         }
     }
-}
+
