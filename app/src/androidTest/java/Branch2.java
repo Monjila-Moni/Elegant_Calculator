@@ -2,7 +2,7 @@
 public class Branch2 {
     String name,id;
     float cgpa;
-    double income;
+
 
 
 
@@ -11,7 +11,7 @@ public class Branch2 {
         this.name=name;
         this.id=id;
         this.cgpa=cgpa;
-        this.income=income;
+
 
     }
 
@@ -39,11 +39,5 @@ public class Branch2 {
         this.id = id;
     }
 
-    public double getIncome() {
-        return income;
-    }
-
-    public void setIncome(double income) {
-        this.income = income;
-    }
+    
 }
